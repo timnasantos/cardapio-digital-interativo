@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+.container{
+    background-color: #f5e8d1;
+    font-family: monospace;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: fixed;
+    background-color: #dbc19d;
+    border: 4px solid #622d0f;
+}
+.voltar-carrinho a li{
+    height: 100%;
+    float: right;
+    padding-right: 10px;
+    margin:-20px 5px; 
+    color: #622d0f;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+#titulo{
+    margin-left: 5px;
+    color: #622d0f;
+    font-weight: bold;
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 65px;
+}
+
+.finalizacao-container{
+    display: flex;
+    justify-content: space-around;
+}
+.finalizacao1{
+    padding: 10px;
+    width: 300px;
+    float: left;
+    display: inline;
+}
+.head-finalizacao1{
+    border: 1px solid gray;   
+    margin-top: 150px;    
+    padding: 10px;
+}
+.informacoes-pessoais{
+    border: 1px solid grey;
+    margin-top: -1px;
+    padding: 10px;
+}
+label, textarea{
+    display: block;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 25px;
+}
+h2{
+    font-weight: bold;
+    color: #622d0f;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.identificacao{
+    color: #622d0f;
+    font-weight: bold;
+
+}
+.finalizacao2{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    border: 1px solid grey;  
+    margin-top: 150px;    
+    flex-direction: column;
+}
+.head-finalizacao2{
+    height: 10%;
+}
+.bloco2de2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90%;
+}
+.unir-carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+.foods{
+    border: 1px solid rgb(216, 211, 211);
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.total{    
+    border: 1px solid rgb(216, 211, 211);
+    width: 100%;
+    padding: 15px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-lanche{
+    color: #622d0f;
+    font-weight: bold;
+}
+.descricao-lanche{
+    color: grey;
+}
+.preco-lanche{
+    color: grey;
+    font-weight: bold;
+}
+.quantidade-itens{
+    margin-left: 30px;
+}
+.titulo-total{
+    color: #622d0f;
+    font-weight: bold;
+}
+.preco-total{
+    color: grey;
+    font-weight: bold;
+}
+
+.finalizacao3{
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    border: 1px solid grey;  
+    margin-top: 150px;    
+    flex-direction: column;
+}
+.head-finalizacao3{
+    height: 10%;
+}
+.formas-pagamento{
+    margin-top: 25px;
+}
+.bloco2de3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%;
+}
+.alinhar3{
+    display: flex;
+}
+.tipo-pagamento{
+    margin-left: 5px;
+    padding: 5px;
+}
+.btn-finalizar{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 55px;
+}
+.btn-cancelar{
+    background-color: #f5e8d1;
+    color: rgb(182, 19, 19);
+    padding: 5px;
+}
+.alinhar-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 5px;
+    color: grey; 
+    margin-top: 120px;
+}
